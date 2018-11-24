@@ -1,62 +1,15 @@
 ゼロから作る Deep Learning ❷
 ==========================
 
-本リポジトリは、オライリー・ジャパン発行書籍『[ゼロから作る Deep Learning ❷](https://www.oreilly.co.jp/books/9784873118369/)』のサポートサイトです。本書籍で使用するソースコードがまとめられています。
-
-
-[![book](https://raw.githubusercontent.com/oreilly-japan/deep-learning-from-scratch-2/images/deep-learning-from-scratch-2.png)](https://www.oreilly.co.jp/books/9784873118369/)
-
-
 ## ファイル構成
 
 |フォルダ名 |説明                         |
 |:--        |:--                          |
-|ch01       |1章で使用するソースコード    |
-|ch02       |2章で使用するソースコード    |
-|...        |...                          |
-|ch08       |8章で使用するソースコード    |
-|common     |共通で使用するソースコード   |
-|dataset    |データセット用のソースコード | 
-
-学習済みの重みファイル（6章、7章で使用）は下記URLから入手可能です。
-<https://www.oreilly.co.jp/pub/9784873118369/BetterRnnlm.pkl>
-
-ソースコードの解説は、本書籍をご覧ください。
-
-
-## Pythonと外部ライブラリ
-ソースコードを実行するには、下記のソフトウェアが必要です。
-
-* Python 3.x（バージョン3系）
-* NumPy
-* Matplotlib
- 
-また、オプションとして下記のライブラリを使用します。
-
-* SciPy（オプション）
-* CuPy（オプション）
-
-## 実行方法
-
-各章のフォルダへ移動して、Pythonコマンドを実行します。
-
-```
-$ cd ch01
-$ python train.py
-
-$ cd ../ch05
-$ python train_custom_loop.py
-```
-
-## ライセンス
-
-本リポジトリのソースコードは[MITライセンス](http://www.opensource.org/licenses/MIT)です。
-商用・非商用問わず、自由にご利用ください。
-
-## 正誤表
-
-本書の正誤情報は以下のページで公開しています。
-
-https://github.com/oreilly-japan/deep-learning-from-scratch-2/wiki/errata
-
-本ページに掲載されていない誤植など間違いを見つけた方は、[japan＠oreilly.co.jp](<mailto:japan＠oreilly.co.jp>)までお知らせください。
+|ch01       |ニューラルネットワークの復習 |
+|ch02       |自然言語と単語の分散表現 |
+|ch03       |word2vec |
+|ch04       |word2vecの高速化 |
+|ch05       |リカレントニューラルネットワーク（RNN） |
+|ch06       |ゲート付きRNN |
+|ch07       |RNNによる文章生成 |
+|ch08       |Attention |
